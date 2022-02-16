@@ -13,7 +13,12 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
+  int i,n,sum=0;
+  printf("enter the max value:");
+  scanf("%d",&n);
   
+  sum=(n*(n+1))/2;
+  printf("sum of the sieries :%d",sum);
   return 0;
 }
 
